@@ -2,17 +2,17 @@
 
 Un proyecto en Java que implementa un sistema de gestión de cursos con autenticación de usuarios, inscripciones y calificaciones.
 
-## 🎯 Características
+##  Características
 
-- ✅ **Autenticación de Usuarios**: Sistema de login con credenciales
-- ✅ **Gestión de Cursos**: Crear y administrar cursos
-- ✅ **Estudiantes y Profesores**: Modelos para diferentes tipos de usuarios
-- ✅ **Inscripciones**: Registro de estudiantes en cursos
-- ✅ **Calificaciones**: Sistema de calificación de estudiantes
-- ✅ **Pagos**: Gestión de pagos de estudiantes
-- ✅ **Interfaz Gráfica**: Ventana de login con Swing
+-  **Autenticación de Usuarios**: Sistema de login con credenciales
+-  **Gestión de Cursos**: Crear y administrar cursos
+-  **Estudiantes y Profesores**: Modelos para diferentes tipos de usuarios
+-  **Inscripciones**: Registro de estudiantes en cursos
+-  **Calificaciones**: Sistema de calificación de estudiantes
+-  **Pagos**: Gestión de pagos de estudiantes
+-  **Interfaz Gráfica**: Ventana de login con Swing
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 src/
@@ -33,7 +33,7 @@ src/
 │       └── VentanaLogin.java         # Interfaz gráfica de login
 ```
 
-## 🚀 Cómo Usar
+##  Cómo Usar
 
 ### Compilar el proyecto:
 ```bash
@@ -50,12 +50,12 @@ java -cp src Main
 - **Correo:** admin@gmail.com
 - **Contraseña:** 1234
 
-## 🛠️ Requisitos
+## 🛠 Requisitos
 
 - Java JDK 8 o superior
 - Git (para clonar/actualizar el repositorio)
 
-## 📝 Clases Principales
+##  Clases Principales
 
 ### Usuario (Clase Base)
 ```java
@@ -75,24 +75,9 @@ Extiende de Usuario e incluye especialidad
 ### Curso
 Contiene nombre del curso y profesor asignado
 
-## 👨‍💻 Autor
+## ‍ Autor
 
-Tu Nombre - 2026
+nik - 2026
 
-## 📄 Licencia
 
-Este proyecto está bajo licencia MIT. Ver archivo LICENSE para más detalles.
-
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
----
-
-**Nota:** Este es un proyecto educativo para un taller de programación.
 
