@@ -16,32 +16,32 @@ public class VentanaLogin extends JFrame {
     public VentanaLogin() {
 
         setTitle("Sistema de Cursos");
-        setSize(300,250);
+        setSize(300, 250);
         setLayout(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JLabel etiquetaCorreo = new JLabel("Correo:");
-        etiquetaCorreo.setBounds(20,30,100,20);
+        etiquetaCorreo.setBounds(20, 30, 100, 20);
         add(etiquetaCorreo);
 
         campoCorreo = new JTextField();
-        campoCorreo.setBounds(120,30,140,20);
+        campoCorreo.setBounds(120, 30, 140, 20);
         add(campoCorreo);
 
         JLabel etiquetaContraseña = new JLabel("Contraseña:");
-        etiquetaContraseña.setBounds(20,70,100,20);
+        etiquetaContraseña.setBounds(20, 70, 100, 20);
         add(etiquetaContraseña);
 
         campoContraseña = new JPasswordField();
-        campoContraseña.setBounds(120,70,140,20);
+        campoContraseña.setBounds(120, 70, 140, 20);
         add(campoContraseña);
 
         botonLogin = new JButton("Iniciar Sesión");
-        botonLogin.setBounds(80,110,140,30);
+        botonLogin.setBounds(80, 110, 140, 30);
         add(botonLogin);
 
         etiquetaResultado = new JLabel("");
-        etiquetaResultado.setBounds(80,160,200,20);
+        etiquetaResultado.setBounds(80, 160, 200, 20);
         add(etiquetaResultado);
 
         botonLogin.addActionListener(new ActionListener() {
@@ -53,11 +53,11 @@ public class VentanaLogin extends JFrame {
 
                 SistemaAutenticacion sistema = new SistemaAutenticacion();
 
-                boolean acceso = sistema.validarUsuario(correo,contraseña);
+                boolean acceso = sistema.validarUsuario(correo, contraseña);
 
-                if(acceso){
+                if (acceso) {
                     etiquetaResultado.setText("Acceso permitido");
-                }else{
+                } else {
                     etiquetaResultado.setText("Acceso denegado");
                 }
 
@@ -67,3 +67,4 @@ public class VentanaLogin extends JFrame {
         setVisible(true);
     }
 }
+
